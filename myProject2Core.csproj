@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\login.css" />
+    <None Include="wwwroot\Images\37227_91651_database.png" />
+    <None Include="wwwroot\Images\Database-PNG-Picture.png" />
+    <None Include="wwwroot\Images\log.svg" />
+    <None Include="wwwroot\Images\LogoFinal.png" />
+    <None Include="wwwroot\Images\register.svg" />
+    <None Include="wwwroot\js\app.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+
+
+</Project>
